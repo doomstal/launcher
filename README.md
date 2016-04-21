@@ -4,7 +4,7 @@ simple minecraft launcher.
 
 configure:
 
-`baseURL`, `baseSubdir`, `authURL` in `doomstal.launcher.Launcher`
+`baseURL`, `baseSubdir` in `doomstal.launcher.Launcher`
 
 `doomstal.launcher.Strings`
 

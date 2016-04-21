@@ -25,7 +25,7 @@ import javax.swing.SwingUtilities;
 public class Launcher {
     public static final String baseURL = "http://example.com/minecraft_files/";
     public static final String baseSubdir = ".launcher";
-    public static final String authURL = "https://auth.example.com/authenticate";
+    public static final String authURL = "https://authserver.mojang.com/authenticate";
 
     private File optionsFile;
     public Options options = new Options();
