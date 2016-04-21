@@ -27,7 +27,7 @@ public class Entry implements Comparable {
         this.path = path;
         if(path.indexOf("/windows/") != -1) this.platform = Platform.windows;
         else if(path.indexOf("/linux/") != -1) this.platform = Platform.linux;
-        else if(path.indexOf("/macosx/") != -1) this.platform = Platform.macosx;
+        else if(path.indexOf("/osx/") != -1) this.platform = Platform.osx;
         else this.platform = Platform.all;
         if(path.startsWith("_userfile/")) {
             this.path = path.substring(10);

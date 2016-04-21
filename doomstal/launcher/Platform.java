@@ -4,7 +4,7 @@ enum Platform {
     all,
     windows,
     linux,
-    macosx;
+    osx;
 
     public static Platform current = all;
     static {
@@ -12,7 +12,7 @@ enum Platform {
         if (osName.contains("win"))
             current = windows;
         else if (osName.contains("mac"))
-            current = macosx;
+            current = osx;
         else if (osName.contains("linux"))
             current = linux;
     }
