@@ -18,7 +18,7 @@ run:
 
 make jar:
 
-`jar cmf manifest.mf launcher.jar doomstal icon.png`
+`jar cmf manifest.mf launcher.jar doomstal/launcher/*.class icon.png`
 
 command line arguments:
 
